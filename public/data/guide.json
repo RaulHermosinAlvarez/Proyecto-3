@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "routing",
+    "title": "Routing",
+    "content": "Laravel permite definir rutas en web.php y api.php..."
+  },
+  {
+    "slug": "mvc",
+    "title": "MVC",
+    "content": "Laravel sigue el patrón Modelo-Vista-Controlador..."
+  },
+  {
+    "slug": "controllers",
+    "title": "Controllers",
+    "content": "Los controladores gestionan la lógica de negocio..."
+  },
+  {
+    "slug": "blade",
+    "title": "Blade",
+    "content": "Blade es el motor de plantillas de Laravel..."
+  },
+  {
+    "slug": "eloquent",
+    "title": "Eloquent",
+    "content": "Eloquent es el ORM que simplifica el acceso a datos..."
+  },
+  {
+    "slug": "migrations",
+    "title": "Migrations",
+    "content": "Las migraciones permiten versionar la base de datos..."
+  },
+  {
+    "slug": "middleware",
+    "title": "Middleware",
+    "content": "El middleware filtra peticiones HTTP..."
+  },
+  {
+    "slug": "auth",
+    "title": "Autenticación",
+    "content": "Laravel incluye autenticación integrada..."
+  }
+]

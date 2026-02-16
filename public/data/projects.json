@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "E-commerce",
+    "objective": "Tienda online completa",
+    "modules": ["Auth", "Eloquent", "API"],
+    "stack": "Laravel + MySQL + React",
+    "difficulty": "Alta"
+  },
+  {
+    "id": 2,
+    "name": "CRM",
+    "objective": "Gestión de clientes",
+    "modules": ["Auth", "Middleware"],
+    "stack": "Laravel + Vue",
+    "difficulty": "Media"
+  },
+  {
+    "id": 3,
+    "name": "Blog",
+    "objective": "Sistema de publicaciones",
+    "modules": ["Blade", "Eloquent"],
+    "stack": "Laravel + Blade",
+    "difficulty": "Baja"
+  },
+  {
+    "id": 4,
+    "name": "API SaaS",
+    "objective": "API para aplicación externa",
+    "modules": ["API", "Auth"],
+    "stack": "Laravel + JWT",
+    "difficulty": "Alta"
+  }
+]

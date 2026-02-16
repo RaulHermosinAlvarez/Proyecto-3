@@ -1,9 +1,16 @@
-Laravel Web Educativa es una web desarrollada completamente en React que tiene como objetivo enseñar y mostrar buenas prácticas de Laravel de manera visual e interactiva.  
+# React + Vite
 
-La web incluye una guía de Laravel con diferentes temas explicados, una sección de recetas prácticas con ejemplos de código, una sección de proyectos tipo con imágenes y descripción, y permite a los usuarios guardar temas y recetas favoritos utilizando localStorage.  
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Toda la navegación se realiza en formato SPA mediante React Router, y los datos se cargan desde archivos JSON ubicados en la carpeta public.  
+Currently, two official plugins are available:
 
-Para instalar y ejecutar la web, basta con clonar el repositorio y ejecutar `npm install` en la carpeta del proyecto, lo que instalará todas las dependencias necesarias. Una vez instalado, se puede ejecutar `npm run dev` para iniciar la web en modo desarrollo y acceder a ella desde el navegador.  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-El proyecto está preparado para ser desplegado en Netlify o cualquier hosting estático, generando la versión de producción mediante `npm run build`.
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
