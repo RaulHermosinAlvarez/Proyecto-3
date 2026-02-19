@@ -2,41 +2,50 @@
   {
     "slug": "routing",
     "title": "Routing",
-    "content": "Laravel permite definir rutas en web.php y api.php..."
+    "content": "Laravel permite definir rutas en web.php y api.php...",
+    "image": "/images/guide/routing.jpg"
+
   },
   {
     "slug": "mvc",
     "title": "MVC",
-    "content": "Laravel sigue el patrón Modelo-Vista-Controlador..."
+    "content": "Laravel sigue el patrón Modelo-Vista-Controlador...",
+    "image": "/images/guide/mvc.jpg"
   },
   {
     "slug": "controllers",
     "title": "Controllers",
-    "content": "Los controladores gestionan la lógica de negocio..."
+    "content": "Los controladores gestionan la lógica de negocio...",
+    "image": "/images/guide/controllers.jpg"
   },
   {
     "slug": "blade",
     "title": "Blade",
-    "content": "Blade es el motor de plantillas de Laravel..."
+    "content": "Blade es el motor de plantillas de Laravel...",
+    "image": "/images/guide/blade.jpg"
   },
   {
     "slug": "eloquent",
     "title": "Eloquent",
-    "content": "Eloquent es el ORM que simplifica el acceso a datos..."
+    "content": "Eloquent es el ORM que simplifica el acceso a datos...",
+    "image": "/images/guide/eloquent.jpg"
   },
   {
     "slug": "migrations",
     "title": "Migrations",
-    "content": "Las migraciones permiten versionar la base de datos..."
+    "content": "Las migraciones permiten versionar la base de datos...",
+    "image": "/images/guide/migrations.jpg"
   },
   {
     "slug": "middleware",
     "title": "Middleware",
-    "content": "El middleware filtra peticiones HTTP..."
+    "content": "El middleware filtra peticiones HTTP...",
+    "image": "/images/guide/middleware.jpg"
   },
   {
     "slug": "auth",
     "title": "Autenticación",
-    "content": "Laravel incluye autenticación integrada..."
+    "content": "Laravel incluye autenticación integrada...",
+    "image": "/images/guide/authentication.jpg"
   }
 ]

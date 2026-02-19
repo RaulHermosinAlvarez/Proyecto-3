@@ -16,7 +16,16 @@ export default function Guide() {
 
   {topics.map(topic => (
     <div className="card" key={topic.slug}>
+      {topic.image && (
+          <img 
+            src={topic.image} 
+            alt={topic.title}
+            className="detail-image"
+            style={{width: "10%"}}
+          />
+        )}  
       <h3>{topic.title}</h3>
+      
       <Link to={`/guide/${topic.slug}`} className="button">
         Ver detalle
       </Link>

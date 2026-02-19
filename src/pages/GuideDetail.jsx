@@ -44,6 +44,7 @@ export default function GuideDetail() {
             src={topic.image} 
             alt={topic.title}
             className="detail-image"
+            style={{width: "10%"}}
           />
         )}
 

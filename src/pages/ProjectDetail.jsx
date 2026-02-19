@@ -18,10 +18,10 @@ export default function ProjectDetail() {
 
   return (
     <div className="container">
-  <div className="card">
-    <h1>{project.name}</h1>
-
-    <p><strong>Objetivo:</strong> {project.objective}</p>
+      <div className="card">
+        <h1>{project.name}</h1>
+        {project.image && <img src={project.image} alt={project .name} style={{width: "20%"}}/>}
+        <p><strong>Objetivo:</strong> {project.objective}</p>
 
     <div>
       {project.modules.map((mod, index) => (

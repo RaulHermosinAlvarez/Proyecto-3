@@ -20,6 +20,12 @@ export default function Favorites() {
       {favorites.topics.length === 0 && <p>No hay temas favoritos</p>}
       {favorites.topics.map(topic => (
         <div className="card" key={topic.slug}>
+          <img 
+            src={topic.image} 
+            alt={topic.title}
+            className="detail-image"
+            style={{width: "10%"}}
+          />
           <h3>{topic.title}</h3>
           <Link to={`/guide/${topic.slug}`} className="button">
             Ver tema
@@ -32,8 +38,9 @@ export default function Favorites() {
       {favorites.recipes.map(recipe => (
         <div className="card" key={recipe.id}>
           <h3>{recipe.title}</h3>
+          <img src={recipe.image} alt={recipe.title} style={{width: "5%"}}/>
           <Link to={`/recipes/${recipe.id}`} className="button">
-            Ver receta
+            Ver receta  
           </Link>
         </div>
       ))}
