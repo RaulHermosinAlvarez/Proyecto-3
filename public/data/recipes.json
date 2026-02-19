@@ -4,20 +4,23 @@
     "title": "Login con Auth",
     "tags": ["auth"],
     "code": "Auth::attempt($credentials);",
-    "steps": "1. Crear controlador\n2. Validar datos\n3. Intentar login"
+    "steps": "1. Crear controlador\n2. Validar datos\n3. Intentar login",
+    "image": "/images/icons/auth.jpg"
   },
   {
     "id": 2,
     "title": "API REST básica",
     "tags": ["api"],
     "code": "Route::apiResource('users', UserController::class);",
-    "steps": "1. Crear modelo\n2. Crear controlador\n3. Definir rutas"
+    "steps": "1. Crear modelo\n2. Crear controlador\n3. Definir rutas",
+    "image": "/images/icons/api.jpg"
   },
   {
     "id": 3,
     "title": "Relaciones Eloquent",
     "tags": ["eloquent"],
     "code": "return $this->hasMany(Post::class);",
-    "steps": "1. Definir modelo\n2. Crear relación\n3. Probar en controlador"
+    "steps": "1. Definir modelo\n2. Crear relación\n3. Probar en controlador",
+    "image": "/images/icons/eloquent.jpg"
   }
 ]

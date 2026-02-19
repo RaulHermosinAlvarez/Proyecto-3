@@ -39,6 +39,7 @@ export default function Recipes() {
 
     {filtered.map(r => (
     <div className="card" key={r.id}>
+      <img src={r.image} alt={r.title} style={{width: "5%"}}/>
       <h3>{r.title}</h3>
       <Link to={`/recipes/${r.id}`} className="button">
         Ver receta

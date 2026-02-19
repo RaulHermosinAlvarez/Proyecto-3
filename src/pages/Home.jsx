@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className="container">
-      <img src="/images/banner.jpg" alt="Laravel Banner" style={{ width: "100%", borderRadius: "12px", marginBottom: "20px" }} />
+      <img src="/images/banner.jpg" alt="Laravel Banner" style={{ width: "20%", borderRadius: "12px", marginBottom: "20px" }} />
 
       <h1 className="section-title">Laravel Web Educativa</h1>
       <div className="card">

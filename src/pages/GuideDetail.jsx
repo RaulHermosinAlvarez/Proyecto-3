@@ -13,7 +13,6 @@ export default function GuideDetail() {
         const found = data.find(t => t.slug === slug);
         setTopic(found);
 
-        // Comprobar si ya está en favoritos
         const stored = JSON.parse(localStorage.getItem("favorites")) || { topics: [], recipes: [] };
         setIsFav(stored.topics.some(t => t.slug === slug));
       });
@@ -23,12 +22,14 @@ export default function GuideDetail() {
 
   const toggleFavorite = () => {
     const stored = JSON.parse(localStorage.getItem("favorites")) || { topics: [], recipes: [] };
+
     let newTopics;
     if (isFav) {
       newTopics = stored.topics.filter(t => t.slug !== slug);
     } else {
       newTopics = [...stored.topics, topic];
     }
+
     const newFavs = { ...stored, topics: newTopics };
     localStorage.setItem("favorites", JSON.stringify(newFavs));
     setIsFav(!isFav);
@@ -37,20 +38,22 @@ export default function GuideDetail() {
   return (
     <div className="container">
       <div className="card">
-        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-          <img
-            src={`/images/icons/${topic.slug}.png`}
-            alt={topic.title}
-            style={{ width: 40, height: 40 }}
-          />
-          <h1>{topic.title}</h1>
-        </div>
 
+        {topic.image && (
+          <img 
+            src={topic.image} 
+            alt={topic.title}
+            className="detail-image"
+          />
+        )}
+
+        <h1>{topic.title}</h1>
         <p>{topic.content}</p>
 
         <button className="button" onClick={toggleFavorite}>
           {isFav ? "Quitar de favoritos" : "Añadir a favoritos"}
         </button>
+
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ export default function Projects() {
       <h1 className="section-title">Proyectos</h1>
       {projects.map(p=>(
         <div className="card" key={p.id}>
-          {p.image && <img src={p.image} alt={p.name} />}
+          {p.image && <img src={p.image} alt={p.name} style={{width: "20%"}}/>}
           <h3>{p.name}</h3>
           <p>{p.objective}</p>
           <div>{p.modules.map((m,i)=><span key={i} className="badge">{m}</span>)}</div>

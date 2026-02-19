@@ -5,7 +5,8 @@
     "objective": "Tienda online completa",
     "modules": ["Auth", "Eloquent", "API"],
     "stack": "Laravel + MySQL + React",
-    "difficulty": "Alta"
+    "difficulty": "Alta",
+    "image": "/images/projects/ecommerce.jpg"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "objective": "Gestión de clientes",
     "modules": ["Auth", "Middleware"],
     "stack": "Laravel + Vue",
-    "difficulty": "Media"
+    "difficulty": "Media",
+    "image": "/images/projects/crm.jpg"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "objective": "Sistema de publicaciones",
     "modules": ["Blade", "Eloquent"],
     "stack": "Laravel + Blade",
-    "difficulty": "Baja"
+    "difficulty": "Baja",
+    "image": "/images/projects/blog.jpg"
   },
   {
     "id": 4,
@@ -29,6 +32,7 @@
     "objective": "API para aplicación externa",
     "modules": ["API", "Auth"],
     "stack": "Laravel + JWT",
-    "difficulty": "Alta"
+    "difficulty": "Alta",
+    "image": "/images/projects/saas.jpg"
   }
 ]
